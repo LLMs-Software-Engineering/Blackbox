@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Private Aircraft for Sale</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.aircraft-listing {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+.aircraft-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.aircraft-card img {
+    max-width: 100%;
+    height: auto;
+}
+.aircraft-card h3 {
+    margin-top: 10px;
+}
+</style>
+</head>
+<body>
+<div class="header">
+    <h1>Private Aircraft for Sale</h1>
+</div>
+<div class="container">
+    <div class="aircraft-listing">
+        <div class="aircraft-card">
+            <img src="aircraft1.jpg" alt="Aircraft 1">
+            <h3>Aircraft 1</h3>
+            <p>Price: $500,000</p>
+        </div>
+        <div class="aircraft-card">
+            <img src="aircraft2.jpg" alt="Aircraft 2">
+            <h3>Aircraft 2</h3>
+            <p>Price: $700,000</p>
+        </div>
+        <div class="aircraft-card">
+            <img src="aircraft3.jpg" alt="Aircraft 3">
+            <h3>Aircraft 3</h3>
+            <p>Price: $900,000</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
